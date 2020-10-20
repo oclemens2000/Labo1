@@ -1,17 +1,17 @@
 ## Labo1: Computernetwerken
 ### Opdrachten met telnet: aan de slag
 1. We maken bestand aan:  
- ssh oclemens@home.test.atlantis.ugent.be  
+ **ssh** oclemens@home.test.atlantis.ugent.be  
  Password: studentennummer  
- Cat > mijninfo.txt
+ **Cat > mijninfo.txt**
 
-2.	We proberen dezelfde server te openen op poort 13:  
+2.	We proberen dezelfde server te openen op **poort 13**:  
  We geven het wachtwoord op en krijgen een error. Bash: 13: command not found
 
-3.	We kunnen dit testen door de server te openen op poort 21, hierbij krijgen we een output:  
+3.	We kunnen dit testen door de server te openen op **poort 21**, hierbij krijgen we een output:  
  Connected to home.test.atlantis.ugent.be.  
  Escape character is '^]'.  
- 220 ProFTPD 1.3.5b Server (Debian) [157.193.215.170]  
+ 220 ProFTPD 1.3.5b Server (Debian) _[157.193.215.170]_ 
 
 4.	We proberen eerst de mailserver te openen op **poort 25**:  
  Dit lukt niet. We proberen eerst via de home server te verbinden en langs deze weg een verbinding te leggen met de mailserver.     Dit werkt, we zijn verbonden met de server.
@@ -82,7 +82,7 @@ Connection closed by foreign host.
 7.	 **NOOP**: De server doet niks, het geeft enkel een _+OK_ terug.
 
 8.	We openen _Wireshark_. We surven vervolgens naar de gevraagde website:  
- Firefox www.test.atlantis.ugent.be  
+ **Firefox www.test.atlantis.ugent.be**  
  We kunnen uit Wireshark alle verbindingen halen met hun IP, die nodig zijn om op de uiteindelijke webpagina te komen.
 
 9.	 We openen de webserver met telnet op **poort 80**.  
