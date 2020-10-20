@@ -81,7 +81,7 @@ Connection closed by foreign host.
 
 7.	 **NOOP**: De server doet niks, het geeft enkel een _+OK_ terug.
 
-8.	We openen _Wireshark_. We surven vervolgens naar de gevraagde website:  
+8.	We openen _Wireshark_. We surfen vervolgens naar de gevraagde website:  
  **Firefox www.test.atlantis.ugent.be**  
  We kunnen uit Wireshark alle verbindingen halen met hun IP, die nodig zijn om op de uiteindelijke webpagina te komen.
 
@@ -102,7 +102,7 @@ Connection closed by foreign host.
  Connection: close  
  Content-Type: text/html  
 
-10.	We surfen opnieuw naar de gegeven site. We merken op dat het aantal verbindingen veel minder is dan de verbinding me telnet of firefox.
+10.	We surfen opnieuw naar de gegeven site. We merken op dat het aantal verbindingen veel minder is dan de verbinding met telnet of firefox.
 
 
 
